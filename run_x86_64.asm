@@ -41,7 +41,7 @@ swap_ctx:
 init_ctx:
     mov rax, rdi
     and rax, 0xfffffffffffffff0
-    sub rax, 64
+    sub rax, 72
 
     mov qword[rax+56], 0
     mov qword[rax+48], 0
